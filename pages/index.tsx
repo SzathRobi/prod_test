@@ -35,7 +35,7 @@ type Props = {
   feed: PostProps[];
 };
 
-const Blog: React.FC<Props> = ({feed, session}) => {
+const Blog = ({feed, session}) => {
 
   
   const router = useRouter()
